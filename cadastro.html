@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia - Cadastro</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+
+</head>
+
+<body>
+
+    <div class="meiocentraliza">
+
+        <div id="principal">
+
+            <div class="carrossel">
+                <div class="slides">
+                    <img src="imagens/Farmacias-ponto-estrategico.jpg" class="slide">
+                    <img src="imagens/farmacia-gaste-menos.jpg" class="slide ativo">
+                    <img src="imagens/Raia.jpg" class="slide">
+                </div>
+
+                <div class="controles">
+                    <button class="seta esquerda">&#10094;</button>
+                    <button class="seta direita">&#10095;</button>
+                </div>
+
+                <div class="bolinhas"></div>
+            </div>
+
+            <div id="menu">
+
+                <ul>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="campanhas-publicitarias.html">Campanhas publicitárias</a></li>
+                    <li><a href="biografia.html">Biografia</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--tabela:-->
+
+
+    <div class="conteinereufiz">
+
+
+            <form action="/Projeto css/projeto css-20250410T223245Z-001/projeto css/cadastrofinalizado.html">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname" class="textocor">Nome Completo</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="name" name="name" placeholder="Seu nome..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="date" class="textocor">Data de nascimento</label>
+                    </div>
+                    <div class="col-75">
+                        <input date type="date" id="date" name="date" placeholder="Data de nascimento..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="CPF" class="textocor">CPF</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="CPF" name="CPF" placeholder="Seu CPF..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email" class="textocor">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="Seu email..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Senha" class="textocor">Senha</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="password" id="Senha" name="Senha" placeholder="Sua senha..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country" class="textocor">País</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="brazil">Brasil</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>
+                </div>
+                <!--
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject" class="textocor">Assunto</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Escreva aqui..."
+                            style="height:80px"></textarea>
+                    </div>
+                </div>
+                <div></div>
+            -->
+
+
+                <br>
+                <div class="row">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+    </div>
+
+    <script src="js/jorge.js"></script>
+
+</body>
+
+</html>
